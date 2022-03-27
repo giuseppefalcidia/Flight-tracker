@@ -1,0 +1,56 @@
+.mainContainer {
+  background-color: #fff;
+  margin: 94px;
+}
+
+h1{
+  padding: 10px;
+}
+.airlineContainer {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+@media (max-width: 750px) {
+  .airlineContainer {
+    grid-template-columns: auto auto;
+  }
+}
+
+.title {
+  margin-top: 67px;
+  margin-left: 94px;
+  color: #000000;
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.secondTitle {
+  margin-left: 94px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #192024;
+}
+
+
+
+input {
+ margin-top: 20px;
+  margin-left: 94px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #192024;
+}
+
+.firsInput {
+  margin-left: 23px;
+  margin-bottom: 20px;
+}
+
+.secondInput {
+  margin-left: 24px;
+}
+
+.thirdInput {
+  margin-left: 10px;
+}
